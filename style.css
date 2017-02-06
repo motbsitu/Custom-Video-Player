@@ -1,11 +1,19 @@
 html {
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
+.head{
+  display:inline-flex;
 
+}
+h1{
+  font-size: 50px;
+
+}
 body {
   padding: 0;
   display:flex;
@@ -16,6 +24,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 
 .player {
   max-width:750px;
@@ -100,7 +109,7 @@ body {
   width:50%;
   background:#ffc600;
   flex:0;
-  flex-basis:50%;
+  flex-basis:0%;
 }
 
 /* unholy css to style input type="range" */
